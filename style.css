@@ -1,0 +1,693 @@
+/* Light theme */
+body.light-mode {
+    background: linear-gradient(to right, #E0F7FA, #B2EBF2,#80DEEA);
+
+}
+.search.light-mode {
+    background-color: #4FD1E5; /* Light background for search */
+    box-shadow: 5px 5px 3px #12a8be;
+}
+
+.search.light-mode > input {
+    background-color: #4FD1E5;
+
+}
+.search.light-mode > button {
+    background-color: #4FD1E5;
+}
+.box.light-mode{
+    background-color: #4FD1E5;
+    box-shadow: 10px 15px 3px #12a8be;
+}
+#celcius.light-mode{
+    background: linear-gradient(90deg, #6fe9ff, #FFFFFF);
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
+#celciusFeelLike.light-mode{
+    background: linear-gradient(90deg, #6fe9ff, #FFFFFF);
+    -webkit-background-clip: text; 
+    color: transparent; 
+
+}
+
+
+/* Defualt theme */
+/* Existing styles */
+body{
+    background: linear-gradient(to right, #0A0A0A, #1C1C1C,#333333); 
+
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D1D1D;
+    width: 500px;
+    height: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px black;
+    /* box-shadow: 5px 5px 8px rgba(95, 95, 95, 0.5); */
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+.search > input {
+    border: none;
+    flex: 1;
+    height: 40px;
+    background-color: #1D1D1D;
+    color: #FFFFFF;
+    border-radius: 40px;
+    padding-left: 20px;
+}
+
+.search > input:focus {
+    outline: none;
+}
+
+.search > button {
+    font-size: 20px;
+    border: none;
+    width: 40px;
+    height: 35px;
+    background-color: #1D1D1D;
+    color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.component {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #1D1D1D;
+    margin: 20px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 15px 3px black;
+    
+}
+.box >label, .box > div>label ,.box>div>div>label,.box>div>div>div>label {
+    color: white;
+}
+
+.sunsetandsunrice{
+    display: flex;
+    flex-direction: row;
+    
+}
+.sunsetandsunrice > div {
+   flex-direction: row;
+}
+.sunsetandsunrice>div> img{
+    width: 40px;
+    height: 40px;
+}
+#celcius{
+    font-weight:bold;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #686868, #FFFFFF);
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
+#celciusFeelLike{
+    font-weight:bold;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #686868, #FFFFFF);
+    -webkit-background-clip: text; 
+    color: transparent; 
+
+}
+#imgCondition{
+    width: 150px;
+    height: 150px;
+}
+#city{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+#time{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+
+}
+#date{
+    font-size: 20px;
+
+}
+
+#item1, #item4 {
+    width: 350px;
+    height: 250px;
+}
+
+#item2, #item3 {
+    width: 650px;
+    height: 250px;
+}
+
+#item2{
+    flex-direction: row;
+    justify-content: space-between;  
+}
+#item3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#item3 >div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#item3 >div >img{
+    width: 50px;
+    height: 50px;
+}
+#item4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#title-item4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight:500;
+
+}
+#item4 >div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#item4 >div >img{
+    width:30px;
+    height: 30px;
+}
+.item2-1{
+    margin-left: 50px;
+    width:400px;
+    padding: 5px;
+    
+}
+.Condition ,.Condition >label{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom:10px;
+    
+      
+}
+.rigthPerameters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    gap: 5px;
+    
+
+    
+}
+.leftPerameters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    gap: 5px;
+    
+}
+.rigthPerameters >img, .leftPerameters >img{
+    width: 40px;
+    height: 40px;
+}
+/* ==================================== */
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /* =========================== */
+
+@media (max-width:1080px) {
+    .search {
+        width: 500px;
+        height: 35px;
+    }
+
+    .search > button {
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .search > input {
+        height: 30px;
+    }
+
+    .component {        
+        margin-top: 20px;
+        gap: 20px;
+        
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+        margin: 5px 0;
+    }
+
+    .sunsetandsunrice>div> img{
+        width: 30px;
+        height: 30px;
+    }
+    #celcius{
+        font-size: 30px;
+    }
+    #celciusFeelLike{
+        font-size: 10px;  
+    }
+    #imgCondition{
+        width: 70px;
+        height: 70px;
+    }
+    #city{
+        font-size: 20px;
+    
+    }
+    #time{
+        font-size: 60px;
+    
+    }
+    #date{
+        font-size: 17px;
+    }
+    
+    #item1, #item4 {
+        width: 200px;
+        height: 200px;
+    }
+    
+    #item2, #item3 {
+        width: 350px;
+        height: 200px;
+    }
+    #item3{
+        gap: 5px;
+    }
+    .box >label, .box > div>label ,.box>div>div>label,.box>div>div>div>label {
+        font-size: 12px;
+    }
+    #item3 >div{
+        gap: 20px;
+    }
+    #item3 >div >img{
+        width: 50px;
+        height: 50px;
+    }
+    #item4{
+        gap: 1px;
+    }
+    #title-item4{
+        font-size: 20px;
+    }
+    #item4 >div{
+        gap: 30px;
+    }
+    #item4 >div >img{
+        width:30px;
+        height: 30px;
+    }
+    .top {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .bottom {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .item2-1{
+        margin-left: 30px;
+        width:400px;
+        padding: 5px;    
+    }
+    .Condition ,.Condition >label{
+        margin-bottom:10px;
+     
+    }
+    .rigthPerameters{
+        width: 100%;
+        margin-top: 10px;
+        gap: 5px;   
+    }
+    .leftPerameters{
+        width: 100%;
+        margin-top: 10px;
+        gap: 5px;
+        
+    }
+    .rigthPerameters >img, .leftPerameters >img{
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+    .search {
+        width: 90%;
+        height: 40px;
+    }
+
+    .search > button {
+        font-size: 18px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .search > input {
+        height: 35px;
+    }
+
+    .component {
+        margin-top: 30px;
+    }
+
+    .top, .bottom {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    #item1, #item4 {
+        width: 100%;
+        height: 200px;
+
+    }
+
+    #item2, #item3 {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .search {
+        width: 80%;
+        height: 35px;
+    }
+
+    .search > button {
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .search > input {
+        height: 30px;
+    }
+
+    .component {
+        margin-top: 20px;
+        gap: 20px;
+        
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+        margin: 5px 0;
+    }
+
+    .sunsetandsunrice>div> img{
+        width: 30px;
+        height: 30px;
+    }
+    #celcius{
+        font-size: 30px;
+    }
+    #celciusFeelLike{
+        font-size: 10px;  
+    }
+    #imgCondition{
+        width: 70px;
+        height: 70px;
+    }
+    #city{
+        font-size: 20px;
+    
+    }
+    #time{
+        font-size: 60px;
+    
+    }
+    #date{
+        font-size: 17px;
+    }
+    
+    #item1, #item4 {
+        width: 350px;
+        height: 200px;
+    }
+    
+    #item2, #item3 {
+        width: 350px;
+        height: 200px;
+    }
+    #item3{
+        gap: 5px;
+    }
+    .box >label, .box > div>label ,.box>div>div>label,.box>div>div>div>label {
+        font-size: 12px;
+    }
+    #item3 >div{
+        gap: 20px;
+    }
+    #item3 >div >img{
+        width: 50px;
+        height: 50px;
+    }
+    #item4{
+        gap: 1px;
+    }
+    #title-item4{
+        font-size: 20px;
+    }
+    #item4 >div{
+        gap: 30px;
+    }
+    #item4 >div >img{
+        width:30px;
+        height: 30px;
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .item2-1{
+        margin-left: 30px;
+        width:400px;
+        padding: 5px;    
+    }
+    .Condition ,.Condition >label{
+        margin-bottom:10px;
+     
+    }
+    .rigthPerameters{
+        width: 100%;
+        margin-top: 10px;
+        gap: 5px;   
+    }
+    .leftPerameters{
+        width: 100%;
+        margin-top: 10px;
+        gap: 5px;
+        
+    }
+    .rigthPerameters >img, .leftPerameters >img{
+        width: 30px;
+        height: 30px;
+    }
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 40px; /* Reduced width */
+        height: 20px; /* Reduced height */
+      }
+      
+      /* Hide default HTML checkbox */
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      
+      /* The slider */
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+      
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 16px; /* Reduced height */
+        width: 16px; /* Reduced width */
+        left: 2px; /* Adjusted position */
+        bottom: 2px; /* Adjusted position */
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+      
+      input:checked + .slider {
+        background-color: #2196F3;
+      }
+      
+      input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3;
+      }
+      
+      input:checked + .slider:before {
+        -webkit-transform: translateX(20px); /* Adjusted for smaller width */
+        -ms-transform: translateX(20px); /* Adjusted for smaller width */
+        transform: translateX(20px); /* Adjusted for smaller width */
+      }
+      
+      /* Rounded sliders */
+      .slider.round {
+        border-radius: 20px; /* Adjusted for smaller height */
+      }
+      
+      .slider.round:before {
+        border-radius: 50%;
+      }
+      
+}
