@@ -14,6 +14,26 @@ const humidity = document.getElementById("humidity");
 const pressure = document.getElementById("pressure");
 const windSpeed = document.getElementById("windSpeed");
 const uv = document.getElementById("uv");
+function fetchCurrentLocationWeather() {
+  if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+          async (position) => {
+              const lat = position.coords.latitude;
+              const lon = position.coords.longitude;
+              console.log(lat, lon);
+              const weatherData = await getWeatherData(`${lat},${lon}`);
+              displayWeather(weatherData);
+          },
+          (error) => {
+              console.error("Error getting location:", error);
+              getWeatherData("Colombo");
+          }
+      );
+  } else {
+      getWeatherData("Colombo");
+  }
+}
+fetchCurrentLocationWeather();
 
 document.getElementById('themeSwitch').addEventListener('change', function() {
   // Toggle light mode class on body and search
@@ -47,7 +67,6 @@ async function getWeatherData(city) {
 
 function displayWeather(data) {
   console.log(data);
-
   card1(data);
   card2(data);
   card3(data);
