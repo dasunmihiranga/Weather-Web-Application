@@ -7,10 +7,10 @@ A simple, fully responsive weather application that provides real-time weather i
 
 ## Features
 
--   **Real-Time Data: Displays current weather details such as temperature, humidity, wind speed, and more.
--   **Dynamic Data Updates: Weather data is updated dynamically based on the user's input.
--   **Responsive Design: Optimized for all devices, including mobile phones, tablets, laptops, and desktops.
--   **Theme Support: Includes both a dark theme ('Deep Night Sky') and a light theme ('Morning Mist') for a customizable user experience.
+-   Real-Time Data: Displays current weather details such as temperature, humidity, wind speed, and more.
+-   Dynamic Data Updates: Weather data is updated dynamically based on the user's input.
+-   Responsive Design: Optimized for all devices, including mobile phones, tablets, laptops, and desktops.
+-   Theme Support: Includes both a dark theme ('Deep Night Sky') and a light theme ('Morning Mist') for a customizable user experience.
   
  Many more..
 
